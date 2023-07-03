@@ -15,7 +15,7 @@ import java.util.List;
 
 @Slf4j
 @Controller
-public class listContoller {
+public class ListContoller {
 
     public List<Anime> animes = Arrays.asList(
             new Anime("One Piece", 1000, Anime.Genre.ADVENTURE, Anime.Status.ONGOING, LocalDate.now()),
